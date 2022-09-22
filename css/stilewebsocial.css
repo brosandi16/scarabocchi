@@ -52,6 +52,61 @@ margin: 0px;
 
 
 
+body {
+  background-color:white;
+    margin: 0;
+}
+nav {
+  color: black;
+    font-family: montserrat;
+    height: 2000px;
+    line-height:25px;
+}
+div {
+  color: black;
+}
+a 
+{
+	text-decoration: none;
+	color: gray;	
+}
+
+a:hover
+{
+	color: black;
+
+}
+.box {
+     width: 300px;
+    border: 1px ;
+text-align: center;
+}
+
+div {
+float: left;
+margin: 0px;
+}    
+
+
+
+
+ {
+  box-sizing: border-box;
+
+}
+
+.header {
+  text-align: center;
+ font-family: montserrat;
+    margin-left: 32%;
+    margin-top: 110;
+    margin-bottom: 50;
+    margin-right: 100;
+}
+
+
+
+
 
 .column img {
   margin-top: 12px;    
@@ -61,8 +116,6 @@ margin: 0px;
     float: right;
   width: 70%;
   padding: 10px;
-}
-	
 }
 
 .modal {
@@ -178,5 +231,4 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
