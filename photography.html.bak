@@ -75,7 +75,7 @@
         <a class="close" href="#gallery1">X</a>
         <h3>Titolo 1</h3>
         <div class="content">
-            <img src="01.jpg">
+            <img src="immagini/fotografia/IMG_5648">
         </div>
         <!-- Next button -->
         <a class="next" href="#img2">Next</a>
@@ -87,7 +87,7 @@
         <a class="close" href="#gallery1">X</a>
         <h3>Titolo 2</h3>
         <div class="content">
-            <img src="02.jpg">
+            <img src="immagini/fotografia/IMG_20210218_170653">
         </div>
         <!-- Previous button -->
         <a class="prev" href="#img1">Previous</a>

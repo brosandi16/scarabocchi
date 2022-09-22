@@ -26,137 +26,83 @@
 </ul>
         </nav></div>
 
-
-
+       <div class="header">
+        <h1>POSTER</h1> </div>
     
-  <div class="gallery-container" id="gallery1">
-
-<div class="gallery">
-    <div class="item">
-        <a href="#img1">
-          <img src="immagini/fotografia/IMG_5648">
-        </a>
-    </div>
-    <div class="item">
-        <a href="#img2">
-            <img src="immagini/fotografia/IMG_20210218_170653">
-        </a>
-    </div>
-    <div class="item">
-        <a href="#img3">
-            <img src="03.jpg">
-        </a>
-    </div>
+<div class="row"> 
+  <div class="column">
+  <img src="immagini/fotografia/IMG_5648.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" style="width:100%">
+  </div>
+    
+  <div class="column">
+  <img src="immagini/fotografia/IMG_2.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" style="width:100%">
+ 
+</div>  
 </div>
-
-<div class="gallery">
-    <div class="item">
-        <a href="#img4">
-          <img src="04.jpg">
-        </a>
+        
+    <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+      
+  <div class="mySlides">
+      <div class="numbertext">1/5</div>
+      <img src="immagini/poster/aurora_carabotti_maggiodeimonument" style="width:100%">
     </div>
-    <div class="item">
-        <a href="#img5">
-            <img src="05.jpg">
-        </a>
+
+    <div class="mySlides">
+      <div class="numbertext">2/5</div>
+      <img src="immagini/poster/Locandine%20e%20inviti_Tavola%20disegno%201" style="width:100%">
     </div>
-    <div class="item">
-        <a href="#img6">
-            <img src="06.jpg">
-        </a>
+
     </div>
-</div>
+
+   
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div></div>
+        
+<script>
+    function openModal(){
+        document.getElementById("myModal").style.display = "block";
+    }    
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+    
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}    
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+    
+        </script>
 
 
-<!-- lightbox section-->
 
-<div class="lightbox" id="img1">
-    <div class="box">
-        <a class="close" href="#gallery1">X</a>
-        <h3>Titolo 1</h3>
-        <div class="content">
-            <img src="immagini/fotografia/IMG_5648">
-        </div>
-        <!-- Next button -->
-        <a class="next" href="#img2">Next</a>
-    </div>
-</div>
-
-<div class="lightbox" id="img2">
-    <div class="box">
-        <a class="close" href="#gallery1">X</a>
-        <h3>Titolo 2</h3>
-        <div class="content">
-            <img src="immagini/fotografia/IMG_20210218_170653">
-        </div>
-        <!-- Previous button -->
-        <a class="prev" href="#img1">Previous</a>
-        <!-- Next button -->
-        <a class="next" href="#img3">Next</a>
-    </div>
-</div>
-
-
-<div class="lightbox" id="img3">
-    <div class="box">
-        <a class="close" href="#gallery1">X</a>
-        <h3>Titolo 3</h3>
-        <div class="content">
-            <img src="03.jpg">
-        </div>
-        <!-- Previous button -->
-        <a class="prev" href="#img2">Previous</a>
-        <!-- Next button -->
-        <a class="next" href="#img4">Next</a>
-    </div>
- </div>
-
-
- <div class="lightbox" id="img4">
-    <div class="box">
-        <a class="close" href="#gallery1">X</a>
-        <h3>Titolo 4</h3>
-        <div class="content">
-            <img src="04.jpg">
-        </div>
-        <!-- Previous button -->
-        <a class="prev" href="#img3">Previous</a>
-        <!-- Next button -->
-        <a class="next" href="#img5">Next</a>
-    </div>
-</div>
-
-<div class="lightbox" id="img5">
-    <div class="box">
-        <a class="close" href="#gallery1">X</a>
-        <h3>Titolo 5</h3>
-        <div class="content">
-            <img src="05.jpg">
-        </div>
-        <!-- Previous button -->
-        <a class="prev" href="#img4">Previous</a>
-        <!-- Next button -->
-        <a class="next" href="#img6">Next</a>
-    </div>
-</div>
-
-
-<div class="lightbox" id="img6">
-    <div class="box">
-        <a class="close" href="#gallery1">X</a>
-        <h3>Titolo 6</h3>
-        <div class="content">
-            <img src="06.jpg">
-        </div>
-        <!-- Previous button -->
-        <a class="prev" href="#img5">Previous</a>
-    </div>
- </div>
-
-<!-- end lightbox section-->
-
-
-</div>
   
   
   

@@ -36,105 +36,148 @@ margin: 0px;
 
 
 
+ {
+  box-sizing: border-box;
 
-
-.gallery-container img {
-    max-width: 100%;
-    border: 0;
-/* for ie 8 */
-    height:  auto;
-    width: inherit;
 }
-.gallery-container {
-    text-align:center;
-}
-.gallery {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.gallery-container a {
-    text-decoration:none;
-    }
 
-.gallery-container .item {
-    max-width: 200px;
-    width: 100%;
-    overflow: auto;
-    border: 1px solid #ccc;
-    margin: 5px;
-    display:  inline-block;
-    text-align: center;
-    }
+.header {
+  text-align: center;
+ font-family: montserrat;
+    margin-left: 32%;
+    margin-top: 110;
+    margin-bottom: 50;
+    margin-right: 100;
+}
 
-.gallery-container .lightbox {
-    opacity: 0;
+
+
+.column {
+  float: right;
+  width: 35%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;    
+}
+
+.row {
+    float: none
+}
+
+.modal {
+    display: none;
     position: fixed;
-    z-index: 9999;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    top: -100%;
-    left: 0;
-    color:#333333;
-    font-family:'arial', sans-serif;
-    -webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-    }
-
-.gallery-container .lightbox:target {
-    opacity: 1;
-    outline: none;
-    top: 0;
-}
-
-.gallery-container .lightbox .box {
- 	margin: 2% auto;
-    padding:10px 20px;
-    background-color:#FFF;
-    box-shadow: 0px 1px 26px -3px #777777;
     overflow: auto;
-  	max-width: 600px;
-    }
+    background-color: black;
 
-.gallery-container .lightbox .box h3 {
-    margin-bottom: 0;
 }
 
-.gallery-container .lightbox .title {
-    margin:0;
-    padding:0 0 10px 0px;
-    border-bottom:1px #ccc solid;
-    font-size:22px;
-    }
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin-top: -95px;
+    margin-left: 400px;
+  padding: 0;
+  width: 50%;
+  max-width: 1200px;
+}
 
-.gallery-container .lightbox .content {
-    display:block;
-    position:relative;
-    }
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
 
-.gallery-container .lightbox .close {
-    display:block;
-    float:right;
-    text-decoration:none;
-    font-size:22px;
-    color:#858585;
-    }
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-.gallery-container .lightbox .next,
-.gallery-container .lightbox .prev,
-.gallery-container .lightbox .close {
-    display:block;
-    text-decoration:none;
-    font-family:'arial', sans-serif;
-    font-size:22px;
-    color:#858585;
-    }
-.gallery-container .prev {
-    float:left;
-    }
-.gallery-container .next,
-.gallery-container .close {
-    float:right;
-    }
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+    left:0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
