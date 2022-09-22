@@ -35,12 +35,12 @@
 <div class="gallery">
     <div class="item">
         <a href="#img1">
-          <img src="01.jpg">
+          <img src="immagini/fotografia/IMG_5648">
         </a>
     </div>
     <div class="item">
         <a href="#img2">
-            <img src="02.jpg">
+            <img src="immagini/fotografia/IMG_20210218_170653">
         </a>
     </div>
     <div class="item">
