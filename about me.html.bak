@@ -34,8 +34,14 @@
 </div>
 
 
-<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=632dd3e6516bac00129984cd&product=inline-follow-buttons" async="async"></script>
-<div class="sharethis-inline-follow-buttons"></div>
+<div class="row">
+<a href="https://www.instagram.com/s.carabo.cchi/"><img src=”immagini/ig.png">
+</div>
+
+<form>
+<input type="button" value="Download CV"
+onClick="window.location.href='AuroraCarabottiCV.pdf'"
+</form>
 
 </body>
 </html>
