@@ -31,13 +31,35 @@
     
 <div class="row"> 
   <div class="column">
-  <img src="immagini/fotografia/IMG_5648.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" style="width:100%">
+  <img src="immagini/fotografia/IMG_5648.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" style="width:80%">
+    <img src="immagini/fotografia/ninfea.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" style="width:80%">
+  <img src="immagini/fotografia/albero.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" style="width:80%">
+      <img src="immagini/fotografia/quaresima.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" style="width:80%">
+	      <img src="immagini/fotografia/carnevale.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow cursor" style="width:80%">
+		      <img src="immagini/fotografia/cielo.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow cursor" style="width:80%">
+			      <img src="immagini/fotografia/simo.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow cursor" style="width:80%">
+				      <img src="immagini/fotografia/makeawish.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow cursor" style="width:80%">
+
+
+
+
+
+
   </div>
     
   <div class="column">
-  <img src="immagini/fotografia/IMG_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" style="width:100%">
- 
-</div>  
+  <img src="immagini/fotografia/IMG_2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" style="width:80%">
+    <img src="immagini/fotografia/paestum.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" style="width:80%">
+	    <img src="immagini/fotografia/meli.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" style="width:80%">
+		    <img src="immagini/fotografia/bolo.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" style="width:80%">
+			    <img src="immagini/fotografia/gatto.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" style="width:80%">
+				    <img src="immagini/fotografia/simmetria.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow cursor" style="width:80%">
+					    <img src="immagini/fotografia/qs.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow cursor" style="width:80%">
+						    <img src="immagini/fotografia/moon.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow cursor" style="width:80%">
+							<img src="immagini/fotografia/raggio.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow cursor" style="width:80%">
+
+  </div>
+  
 </div>
         
     <div id="myModal" class="modal">
@@ -45,14 +67,69 @@
   <div class="modal-content">
       
   <div class="mySlides">
-      <div class="numbertext">1/5</div>
-      <img src="immagini/fotografia/IMG_5648.jpg" style="width:100%">
+      <div class="numbertext">1/17</div>
+      <img src="immagini/fotografia/IMG_2.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2/5</div>
-      <img src="immagini/fotografia/IMG_2.jpg" style="width:100%">
+      <div class="numbertext">2/17</div>
+      <img src="immagini/fotografia/IMG_5648.jpg" style="width:100%">
     </div>
+	 <div class="mySlides">
+      <div class="numbertext">3/17</div>
+      <img src="immagini/fotografia/paestum.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">4/17</div>
+      <img src="immagini/fotografia/ninfea.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">5/17</div>
+      <img src="immagini/fotografia/meli.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">6/17</div>
+      <img src="immagini/fotografia/albero.jpg" style="width:100%">
+    </div> 
+	<div class="mySlides">
+      <div class="numbertext">7/17</div>
+      <img src="immagini/fotografia/bolo.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">8/17</div>
+      <img src="immagini/fotografia/quaresima.jpg" style="width:100%">
+    </div> <div class="mySlides">
+      <div class="numbertext">9/17</div>
+      <img src="immagini/fotografia/gatto.jpg" style="width:100%">
+    </div> <div class="mySlides">
+      <div class="numbertext">10/17</div>
+      <img src="immagini/fotografia/carnevale.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">11/17</div>
+      <img src="immagini/fotografia/simmetria.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">12/17</div>
+      <img src="immagini/fotografia/cielo.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">13/17</div>
+      <img src="immagini/fotografia/qs.jpg" style="width:100%">
+    </div> 
+	<div class="mySlides">
+      <div class="numbertext">14/17</div>
+      <img src="immagini/fotografia/simo.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">15/17</div>
+      <img src="immagini/fotografia/moon.jpg" style="width:100%">
+    </div> <div class="mySlides">
+      <div class="numbertext">16/17</div>
+      <img src="immagini/fotografia/makeawish.jpg" style="width:100%">
+    </div> <div class="mySlides">
+      <div class="numbertext">17/17</div>
+      <img src="immagini/fotografia/raggio.jpg" style="width:100%">
 
     </div>
 
