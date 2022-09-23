@@ -35,16 +35,9 @@
 
 
 <div class="row">
-<a href="https://www.instagram.com/s.carabo.cchi/"><img src=”immagini/instagram.png">
+<a href="https://www.instagram.com/s.carabo.cchi/"><img src=”immagini/icona.png">
 </div>
 
-
-<div class="row">
-<form>
-<input type="button" value="Download CV"
-onClick="window.location.src='AuroraCarabottiCV.pdf'">
-</form>
-</div>
 
 </body>
 </html>
