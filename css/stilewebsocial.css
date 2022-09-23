@@ -109,11 +109,12 @@ margin: 0px;
 
 
 .column img {
-  margin-top: 12px;    
+  margin-top: 12px;  
+  
 }
 
 .row {
-    float: right;
+    float: none;
   width: 70%;
   padding: 10px;
   display: block;
