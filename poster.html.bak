@@ -62,25 +62,25 @@
       <img src="immagini/poster/aurora_carabotti_maggiodeimonument.png" style="width:100%">
     </div>
 
-    
+    <div class="mySlides">
+      <div class="numbertext">3/7</div>
+      <img src="immagini/poster/manifesto%20eco-02.png" style="width:100%">
+    </div> 
 
     <div class="mySlides">
       <div class="numbertext">4/7</div>
       <img src="immagini/poster/IMG_0082.PNG" style="width:100%">
     </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">3/7</div>
-      <img src="immagini/poster/manifesto%20eco-02.png" style="width:100%">
-    </div>      
+    	<div class="mySlides">
+      <div class="numbertext">5/7</div>
+      <img src="immagini/poster/umbriajazz_Tavola%20disegno%201%20copia.jpg" style="width:100%">
+    </div>    
+         
         <div class="mySlides">
       <div class="numbertext">6/7</div>
       <img src="immagini/poster/sottopelle.jpg" style="width:100%">
     </div>
-	<div class="mySlides">
-      <div class="numbertext">5/7</div>
-      <img src="immagini/poster/umbriajazz_Tavola%20disegno%201%20copia.jpg" style="width:100%">
-    </div>      
+  
         <div class="mySlides">
       <div class="numbertext">7/7</div>
       <img src="immagini/poster/tata.jpg" style="width:100%">
