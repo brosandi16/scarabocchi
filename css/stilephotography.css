@@ -55,11 +55,11 @@ margin: 0px;
 .column {
   float: right;
   width: 35%;
-  padding: 25px;
+  padding: 10px;
 }
 
 .column img {
-  margin-top: 12px;    
+  margin-top: 20px;    
 }
 
 .row {
