@@ -41,6 +41,8 @@
   <img src="immagini/IMG_0432%20(2).JPG" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" style="width:100%">
   <img src="immagini/IMG_0429.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" style="width:100%">
   <img src="immagini/IMG_0495.PNG" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" style="width:100%">
+      <img src="macchina.JPG" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+
 </div>  
     
   <div class="column">
