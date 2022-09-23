@@ -150,8 +150,6 @@ img {
   margin-bottom: -4px;
 }
 
-.demo {
-  opacity: 0.6;
-}
+
 
 

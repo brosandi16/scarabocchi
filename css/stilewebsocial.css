@@ -116,6 +116,8 @@ margin: 0px;
     float: right;
   width: 70%;
   padding: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .modal {
