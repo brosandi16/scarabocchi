@@ -5,7 +5,7 @@ body {
 nav {
   color: black;
     font-family: montserrat;
-    height: 2000px;
+    height: 2500px;
     line-height:25px;
 }
 div {
