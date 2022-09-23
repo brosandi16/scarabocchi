@@ -37,28 +37,7 @@
 <div class="row"> 
   <img src="immagini/web%20design/web1.jpg" style="width:100%">
   </div>
-    
-	
-	<div class="row">
-		<a class="btn" href="http://www.pizzaevai.it/">sito originale</a>
-<style>
-.btn {
-  display: inline-block;
-  padding: 3px 6px;
-  background-color: #444;
-  color: #FFF;
-  border: 1px solid #222;
-  border-radius: 3px;
-  text-decoration: none;
-  font-family: montserrat;
-  font-size: 12px;
-  cursor: pointer;
-  margin: 10;
-  margin-left: 300;
-  position: static;
-  padding: 5px;
-}
-</style>
+  
 	
 	
   <div class="row">
