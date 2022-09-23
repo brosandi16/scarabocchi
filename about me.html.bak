@@ -29,13 +29,9 @@
         </nav></div>
 
     
-    <section>
-    <div>
-chi sono da dove vengo perchè respiro
-        </div>
-    </section>
-    <footer>Copyright Aurora Carabotti 2022</footer>
-
+     <div class="row">
+  <img src="immagini/about.png" style="width:100%">
+</div>
 
 </body>
 </html>
