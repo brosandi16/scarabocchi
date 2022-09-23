@@ -36,7 +36,9 @@
   <img src="immagini/web%20design/web1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" style="width:100%">
   </div>
     
-	<a class="btn" href="http://www.pizzaevai.it/">sito originale</a>
+	
+	<div class="row">
+		<a class="btn" href="http://www.pizzaevai.it/">sito originale</a>
 <style>
 .btn {
   display: inline-block;
