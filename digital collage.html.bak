@@ -12,9 +12,9 @@
     <div class="box">
 <nav>
 <ul> <br><br>
-    <a href="home.html"><img src="immagini/IOOOOO.PNG" width="180" alt=selfportrait></a>
+    <a href="index.html"><img src="immagini/IOOOOO.PNG" width="180" alt=selfportrait></a>
     <header>
-        <a href="home.html"><img src="https://fontmeme.com/permalink/220917/b14bed86d36c0ee5d0dd72a7611df079.png" alt="font-firma" border="0"></a><br><i>portfolio</i> <font size=3> </header> <br><br>
+        <a href="index.html"><img src="https://fontmeme.com/permalink/220917/b14bed86d36c0ee5d0dd72a7611df079.png" alt="font-firma" border="0"></a><br><i>portfolio</i> <font size=3> </header> <br><br>
     
  <a href="illustrazioni.html">illustration</a><br>
         <a href="digital%20collage.html"><font color="black">digital collage</font></a><br>
@@ -56,20 +56,20 @@
   <div class="modal-content">
   
   <div class="mySlides">
-      <div class="numbertext">1/4</div>
+      <div class="numbertext">1/5</div>
       <img src="immagini/COLLAGE/grafica-marcomessina.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2/4</div>
+      <div class="numbertext">2/5</div>
       <img src="immagini/COLLAGE/grafica%20finale%20Franz.jpg" style="width:100%">
     </div>
 	 <div class="mySlides">
-      <div class="numbertext">3/4</div>
+      <div class="numbertext">3/5</div>
       <img src="immagini/COLLAGE/pages-to-jpg-0002.jpg" style="width:100%">
     </div>
 	 <div class="mySlides">
-      <div class="numbertext">4/4</div>
+      <div class="numbertext">4/5</div>
       <img src="immagini/COLLAGE/pages-to-jpg-0001.jpg" style="width:100%">
     </div>
 	
