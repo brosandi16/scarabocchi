@@ -3,7 +3,7 @@
  <meta charset="UTF-8">
   <title>digital collage</title>
     <meta name="keywords" content="portfolio, illustrazioni, aurora carabotti, artista, sCarabocchi" />
-    <meta name="description" content="Questo è il portfolio di aurora carabotti" />
+    <meta name="description" content="Aurora Carabotti Portfolio" />
     
   <link rel="icon" type="image/icon" href="immagini/favicon.PNG">
     <link rel="stylesheet" href="css/stiledigitalcollage.css">
@@ -26,40 +26,53 @@
 </ul>
 </nav></div>
         
-        <h1>DIGITAL COLLAGE</h1> </div>
-    
+<div class="header">
+        <h1>DIGITAL COLLAGE</h1> </div>    
         
         
 <div class="row">
   <div class="column">
-    <div class="content">
-      <img src="immagini/COLLAGE/grafica%20finale%20Franz.jpg" alt="napoli" style="width:100%">
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="immagini/COLLAGE/grafica-marcomessina.jpg" alt="stars" style="width:100%">
-    </div>
-  </div>
+      <img src="immagini/COLLAGE/grafica%20finale%20Franz.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" style="width:80%">
+      <img src="immagini/COLLAGE/pages-to-jpg-0001.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" style="width:80%">
 </div>
 
           <div class="column">
-    <div class="content">
-      <img src="immagini/COLLAGE/pages-to-jpg-0001.jpg" alt="farfalla" style="width:100%">
-    </div>
+      <img src="immagini/COLLAGE/grafica-marcomessina.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" style="width:80%">
+	      <img src="immagini/COLLAGE/pages-to-jpg-0002.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" style="width:80%">
   </div>
-  <div class="column">
-    <div class="content">
-    <img src="immagini/COLLAGE/pages-to-jpg-0002.jpg" alt="leggerezza" style="width:100%">
-    </div>
   </div>
-</div>
         
     <div class="column">
 <div class="content">
     <a href=https://www.amazon.it/rivoluzionaria-presa-coscienza-Invito-viaggio/dp/8856907828/ref=asc_df_8856907828/?tag=googshopit-21&linkCode=df0&hvadid=459224435746&hvpos=&hvnetw=g&hvrand=8854328393991505272&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008560&hvtargid=pla-1146202619880&psc=1> <img src="immagini/COLLAGE/Copertinaaaa.png" alt="book cover" style="width:210%"; align="right";></a>
 </div>
         </div>
+		
+		
+		
+		
+		<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+  
+  <div class="mySlides">
+      <div class="numbertext">1/5</div>
+      <img src="immagini/COLLAGE/grafica-marcomessina.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2/5</div>
+      <img src="immagini/COLLAGE/grafica%20finale%20Franz.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">3/5</div>
+      <img src="immagini/COLLAGE/pages-to-jpg-0002.jpg" style="width:100%">
+    </div>
+	 <div class="mySlides">
+      <div class="numbertext">4/5</div>
+      <img src="immagini/COLLAGE/pages-to-jpg-0001.jpg" style="width:100%">
+    </div>
+	
         
 </body>
 </html>
