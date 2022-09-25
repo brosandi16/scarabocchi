@@ -85,9 +85,6 @@ margin: 0px;
   background-color: #555;
 }
 
-footer {
-  font-family: montserrat;
-  font-size: 12px;
-}
+
 
 
