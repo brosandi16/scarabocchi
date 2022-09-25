@@ -94,7 +94,7 @@ margin: 0px;
 footer {
     grid-area: footer;
     position: relative;
-    background-color: 262730;
+    background-color: white;
       display: block;
 }
 
@@ -111,7 +111,7 @@ footer ul {
 }
 
 footer li {
-      text-align: -webkit-match-parent;
+      text-align: center;
 } 
 
 footer a:{
