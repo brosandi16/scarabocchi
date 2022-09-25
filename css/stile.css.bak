@@ -88,3 +88,44 @@ margin: 0px;
 
 
 
+
+
+
+footer {
+    grid-area: footer;
+    position: relative;
+    background-color: white;
+      display: block;
+}
+
+
+footer ul {
+    padding: 0px;
+    display: block;
+    width: 240px;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+      list-style-type: disc;
+}
+
+footer li {
+      text-align: -webkit-match-parent;
+} 
+
+footer a:{
+    cursor: pointer;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+
